@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Resim Üzerine Yazı</title>
+    </head>
+    <body>
+        <div id="kapsamalani" onmouseover="goster()" onmouseout="gizle()" style="margin:50px auto; width: 542px; height: 361px; border:3px double black; position: relative;">
+            
+            <img src="pamukkale.jpg" width="542" height="361" style="border: none;">
+
+            <div id="metinalani" style= " text-align: center; display: none; width: 532px; height: 50px; position: absolute; bottom: 0; left: 0; background-color: black; color: white ; padding: 5px; opacity: 0.7 ; -moz-opacity:0.7; "  >
+                Pamukkale, güneybatı Türkiye'deki Denizli ilinde doğal bir mevkidir. Kent Kaplıcaları ve akan sulardan kalan karbonat minerallerin teraslarını, travertenlerini kapsamaktadır.
+            </div>
+        </div>
+        <script type="text/javascript" Language="javascript">
+            function goster(){
+                document.getElementById("metinalani").style.display="block";
+
+            }
+            function gizle(){
+                document.getElementById("metinalani").style.display="none";
+
+            }
+           
+        </script>
+        
+    </body>
+
+</html>
